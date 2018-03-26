@@ -5,18 +5,19 @@
 Lumen is a minimal, lightweight and mobile-first starter for creating blogs uses [Gatsby](https://github.com/gatsbyjs/gatsby).
 
 ## Features
-+ Lost Grid ([peterramsing/lost](https://github.com/peterramsing/lost)).
-+ Beautiful typography inspired by [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg).
-+ [Mobile-First](https://medium.com/@mrmrs_/mobile-first-css-48bc4cc3f60f) approach in development.
-+ Stylesheet built using SASS and [BEM](http://getbem.com/naming/)-Style naming.
-+ Syntax highlighting in code blocks.
-+ Sidebar menu built using a configuration block.
-+ Archive organized by tags and categories.
-+ Automatic RSS generation.
-+ Automatic Sitemap generation.
-+ Offline support.
-+ Google Analytics support.
-+ Disqus Comments support.
+
+* Lost Grid ([peterramsing/lost](https://github.com/peterramsing/lost)).
+* Beautiful typography inspired by [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg).
+* [Mobile-First](https://medium.com/@mrmrs_/mobile-first-css-48bc4cc3f60f) approach in development.
+* Stylesheet built using SASS and [BEM](http://getbem.com/naming/)-Style naming.
+* Syntax highlighting in code blocks.
+* Sidebar menu built using a configuration block.
+* Archive organized by tags and categories.
+* Automatic RSS generation.
+* Automatic Sitemap generation.
+* Offline support.
+* Google Analytics support.
+* Disqus Comments support.
 
 ## Folder Structure
 
@@ -56,45 +57,52 @@ Lumen is a minimal, lightweight and mobile-first starter for creating blogs uses
 ```
 
 ## Getting Started
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new lumen https://github.com/alxshelepenok/gatsby-starter-lumen`
+
+Install Gatsby's command line tool:
+`npm install --global gatsby-cli`
+
+Clone this repository.
+
+<span style="color:red">Don't push on **master** branch, it is only used for deployment.</span>
+
+Use branch **source** to add post in `src/pages/articles` or modify blog.
 
 #### Running in Development
+
 `gatsby develop`
 
 #### Building
+
 `gatsby build`
 
-#### Deploy with Netlify
+#### Deploy on GitHub Pages
 
-Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. Use the button below to build and deploy your own copy of the repository:
-
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/alxshelepenok/gatsby-starter-lumen" target="_blank"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
-
-After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
+`npm run deploy`
 
 ## Screenshot
 
 ![](http://i.imgur.com/422y5GV.png)
 
 ## Ports
+
 [Statinamic port](https://github.com/thangngoc89/statinamic-theme-lumen) by [Khoa Nguyen](https://github.com/thangngoc89)
 
 ## Contributors
-[<img alt="alxshelepenok" src="https://avatars2.githubusercontent.com/u/8599449?v=4&s=117" width="117">](https://github.com/alxshelepenok) |[<img alt="abisz" src="https://avatars3.githubusercontent.com/u/7287780?v=4&s=117" width="117">](https://github.com/abisz) |[<img alt="mariolopjr" src="https://avatars3.githubusercontent.com/u/2067324?v=4&s=117" width="117">](https://github.com/mariolopjr) |[<img alt="ihororlovskyi" src="https://avatars3.githubusercontent.com/u/7969737?v=4&s=117" width="117">](https://github.com/ihororlovskyi) |[<img alt="marcelabomfim" src="https://avatars0.githubusercontent.com/u/6224547?v=4&s=117" width="117">](https://github.com/marcelabomfim) |[<img alt="vinnymac" src="https://avatars0.githubusercontent.com/u/1832781?v=4&s=117" width="117">](https://github.com/vinnymac) |
-:---: |:---: |:---: |:---: |:---: |:---: |
-[alxshelepenok](https://github.com/alxshelepenok) |[abisz](https://github.com/abisz) |[mariolopjr](https://github.com/mariolopjr) |[ihororlovskyi](https://github.com/ihororlovskyi) |[marcelabomfim](https://github.com/marcelabomfim) |[vinnymac](https://github.com/vinnymac) |
 
-[<img alt="axelclark" src="https://avatars1.githubusercontent.com/u/16856928?v=4&s=117" width="117">](https://github.com/axelclark) |[<img alt="ybbarng" src="https://avatars2.githubusercontent.com/u/1793950?v=4&s=117" width="117">](https://github.com/ybbarng) |[<img alt="marktani" src="https://avatars1.githubusercontent.com/u/1780597?v=4&s=117" width="117">](https://github.com/marktani) |[<img alt="concreted" src="https://avatars2.githubusercontent.com/u/4016897?v=4&s=117" width="117">](https://github.com/concreted) |[<img alt="charandas" src="https://avatars2.githubusercontent.com/u/542168?v=4&s=117" width="117">](https://github.com/charandas) |[<img alt="zollillo" src="https://avatars3.githubusercontent.com/u/8833904?v=4&s=117" width="117">](https://github.com/zollillo) |
-:---: |:---: |:---: |:---: |:---: |:---: |
-[axelclark](https://github.com/axelclark) |[ybbarng](https://github.com/ybbarng) |[marktani](https://github.com/marktani) |[concreted](https://github.com/concreted) |[charandas](https://github.com/charandas) |[zollillo](https://github.com/zollillo) |
+| [<img alt="alxshelepenok" src="https://avatars2.githubusercontent.com/u/8599449?v=4&s=117" width="117">](https://github.com/alxshelepenok) | [<img alt="abisz" src="https://avatars3.githubusercontent.com/u/7287780?v=4&s=117" width="117">](https://github.com/abisz) | [<img alt="mariolopjr" src="https://avatars3.githubusercontent.com/u/2067324?v=4&s=117" width="117">](https://github.com/mariolopjr) | [<img alt="ihororlovskyi" src="https://avatars3.githubusercontent.com/u/7969737?v=4&s=117" width="117">](https://github.com/ihororlovskyi) | [<img alt="marcelabomfim" src="https://avatars0.githubusercontent.com/u/6224547?v=4&s=117" width="117">](https://github.com/marcelabomfim) | [<img alt="vinnymac" src="https://avatars0.githubusercontent.com/u/1832781?v=4&s=117" width="117">](https://github.com/vinnymac) |
+| :----------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------: |
+|                                             [alxshelepenok](https://github.com/alxshelepenok)                                              |                                             [abisz](https://github.com/abisz)                                              |                                             [mariolopjr](https://github.com/mariolopjr)                                              |                                             [ihororlovskyi](https://github.com/ihororlovskyi)                                              |                                             [marcelabomfim](https://github.com/marcelabomfim)                                              |                                             [vinnymac](https://github.com/vinnymac)                                              |
 
-[<img alt="codejet" src="https://avatars3.githubusercontent.com/u/802203?v=4&s=117" width="117">](https://github.com/codejet) |[<img alt="reed-jones" src="https://avatars0.githubusercontent.com/u/11511864?v=4&s=117" width="117">](https://github.com/reed-jones) |[<img alt="swapnilmishra" src="https://avatars2.githubusercontent.com/u/875450?v=4&s=117" width="117">](https://github.com/swapnilmishra) |[<img alt="vvasiloud" src="https://avatars1.githubusercontent.com/u/5891530?v=4&s=117" width="117">](https://github.com/vvasiloud) |[<img alt="wichopy" src="https://avatars2.githubusercontent.com/u/24414632?v=4&s=117" width="117">](https://github.com/wichopy) |
-:---: |:---: |:---: |:---: |:---: |
-[codejet](https://github.com/codejet) |[reed-jones](https://github.com/reed-jones) |[swapnilmishra](https://github.com/swapnilmishra) |[vvasiloud](https://github.com/vvasiloud) |[wichopy](https://github.com/wichopy) |
+| [<img alt="axelclark" src="https://avatars1.githubusercontent.com/u/16856928?v=4&s=117" width="117">](https://github.com/axelclark) | [<img alt="ybbarng" src="https://avatars2.githubusercontent.com/u/1793950?v=4&s=117" width="117">](https://github.com/ybbarng) | [<img alt="marktani" src="https://avatars1.githubusercontent.com/u/1780597?v=4&s=117" width="117">](https://github.com/marktani) | [<img alt="concreted" src="https://avatars2.githubusercontent.com/u/4016897?v=4&s=117" width="117">](https://github.com/concreted) | [<img alt="charandas" src="https://avatars2.githubusercontent.com/u/542168?v=4&s=117" width="117">](https://github.com/charandas) | [<img alt="zollillo" src="https://avatars3.githubusercontent.com/u/8833904?v=4&s=117" width="117">](https://github.com/zollillo) |
+| :---------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------: |
+|                                              [axelclark](https://github.com/axelclark)                                              |                                             [ybbarng](https://github.com/ybbarng)                                              |                                             [marktani](https://github.com/marktani)                                              |                                             [concreted](https://github.com/concreted)                                              |                                             [charandas](https://github.com/charandas)                                             |                                             [zollillo](https://github.com/zollillo)                                              |
 
+| [<img alt="codejet" src="https://avatars3.githubusercontent.com/u/802203?v=4&s=117" width="117">](https://github.com/codejet) | [<img alt="reed-jones" src="https://avatars0.githubusercontent.com/u/11511864?v=4&s=117" width="117">](https://github.com/reed-jones) | [<img alt="swapnilmishra" src="https://avatars2.githubusercontent.com/u/875450?v=4&s=117" width="117">](https://github.com/swapnilmishra) | [<img alt="vvasiloud" src="https://avatars1.githubusercontent.com/u/5891530?v=4&s=117" width="117">](https://github.com/vvasiloud) | [<img alt="wichopy" src="https://avatars2.githubusercontent.com/u/24414632?v=4&s=117" width="117">](https://github.com/wichopy) |
+| :---------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
+|                                             [codejet](https://github.com/codejet)                                             |                                              [reed-jones](https://github.com/reed-jones)                                              |                                             [swapnilmishra](https://github.com/swapnilmishra)                                             |                                             [vvasiloud](https://github.com/vvasiloud)                                              |                                              [wichopy](https://github.com/wichopy)                                              |
 
 ## License
+
 The MIT License (MIT)
 
 Copyright (c) 2016-2018 Alexander Shelepenok
