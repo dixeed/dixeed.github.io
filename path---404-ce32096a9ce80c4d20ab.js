@@ -1,0 +1,2 @@
+webpackJsonp([0xe70826b53c04],{383:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Dixeed Docs",subtitle:"A blog containing various documentations, tutorials and introductions created by Dixeed",copyright:"Dixeed © All rights reserved.",menu:[{label:"Articles",path:"/"},{label:"About Us",path:"/about/"}],author:{name:"Dixeed",email:"contact@dixeed.com",telegram:"#",twitter:"dixeed",github:"dixeed",rss:"#",vk:"#"}}}},pathContext:{}}}});
+//# sourceMappingURL=path---404-ce32096a9ce80c4d20ab.js.map
