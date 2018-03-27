@@ -63,9 +63,7 @@ Install Gatsby's command line tool:
 
 Clone this repository.
 
-<span style="color:red">Don't push on **master** branch, it is only used for deployment.</span>
-
-Use branch **source** to add post in `src/pages/articles` or modify blog.
+**Don't push on master branch, it is only used to deploy on GitHub Pages.** Use branch **source** to add article in `src/pages/articles` or modify blog.
 
 #### Running in Development
 
