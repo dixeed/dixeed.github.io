@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dixeed Docs]]></title><description><![CDATA[A blog containing various documentations, tutorials and introductions created by Dixeed]]></description><link>https://dixeed.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 27 Mar 2018 08:32:12 GMT</lastBuildDate><item><title><![CDATA[Hapi 17 Tutorial]]></title><description><![CDATA[The new major version of Hapi fully embraces the `async/await` feature brought in **ES2017 (ES8)**. This totally changes the way we interact with the framework and one should be comfortable with it to use this new version of Hapi]]></description><link>https://dixeed.github.io//posts/hapi-17-tutorial/</link><guid isPermaLink="false">https://dixeed.github.io//posts/hapi-17-tutorial/</guid><pubDate>Tue, 20 Mar 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h1&gt;HAPI v17&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dixeed Docs]]></title><description><![CDATA[A blog containing various documentations, tutorials and introductions created by Dixeed]]></description><link>https://dixeed.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 27 Mar 2018 08:55:48 GMT</lastBuildDate><item><title><![CDATA[Hapi 17 Tutorial]]></title><description><![CDATA[The new major version of Hapi fully embraces the `async/await` feature brought in **ES2017 (ES8)**. This totally changes the way we interact with the framework and one should be comfortable with it to use this new version of Hapi]]></description><link>https://dixeed.github.io//posts/hapi-17-tutorial/</link><guid isPermaLink="false">https://dixeed.github.io//posts/hapi-17-tutorial/</guid><pubDate>Tue, 20 Mar 2018 22:40:32 GMT</pubDate><content:encoded>&lt;h1&gt;HAPI v17&lt;/h1&gt;
 &lt;p&gt;The new major version of Hapi fully embraces the &lt;code class=&quot;language-text&quot;&gt;async/await&lt;/code&gt; feature brought in &lt;strong&gt;ES2017 (ES8)&lt;/strong&gt;. This totally changes the way we interact with the framework and one should be comfortable with it to use this new version of Hapi.&lt;/p&gt;
 &lt;h2&gt;Disclaimer&lt;/h2&gt;
 &lt;p&gt;This &lt;em&gt;tutorial&lt;/em&gt; is not meant to be exhaustive but rather hightlights the main changes that concerns us and then links to some additional resources that might help you deepen your knowledge.&lt;/p&gt;
@@ -445,20 +445,64 @@ handler&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span c
 &lt;p&gt;To get started you need to create an account (or connect if you already have one). Head &lt;a href=&quot;https://travis-ci.org/&quot;&gt;here&lt;/a&gt; to do so. You just need to use Github authentication to connect.&lt;/p&gt;
 &lt;p&gt;Once connected you should access your profile:&lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;images/PUBLIC_PACKAGE/travis_profile.png&quot; alt=&quot;Travis profile button&quot;&gt;
+  
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/travis_profile-7b72b7ccdd40e2ffef493e9c48d05b81-6e253.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 207px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 24.637681159420293%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAACXBIWXMAAAsSAAALEgHS3X78AAAA30lEQVQY01WPTW6DMBCFcz0kLsBJOAMLLsECseMKSEiNWqckJsmGRVVFKmCI/8CAYJUHaav2szwaP82M3+z0RrehcboeQOm7/ikqpaZpKooiiqIkSRhjKICImh3KpeBNe+ecSyHqqvwqSyllVVcVa9q2RT4Mg23blmW5rhuG4bIsENfm3pjb58creT/nJ0IO18slP+cH8rZ/2ZPjidJjc+eM1Y7jeJ7n+34QBPM8fzfjSqXwgBMhxOqm07CgNrReI37OsixN0ziOKaXjOP7Y/sO69v/kF2MMVsB0DHp2ggdTpQbTNAF5mAAAAABJRU5ErkJggg==&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Travis profile button&quot; title=&quot;&quot; src=&quot;/static/travis_profile-7b72b7ccdd40e2ffef493e9c48d05b81-6e253.png&quot; srcset=&quot;/static/travis_profile-7b72b7ccdd40e2ffef493e9c48d05b81-6e253.png 207w&quot; sizes=&quot;(max-width: 207px) 100vw, 207px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
 &lt;/p&gt;
 &lt;p&gt;Here you have the list of your public Github repositories:&lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;images/PUBLIC_PACKAGE/travis_own_repo.png&quot; alt=&quot;Travis repositories list&quot;&gt;
+  
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/travis_own_repo-97c6453dd080ba1a08c21ffe3df4836d-9b30c.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 789px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 97.084917617237%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAACXBIWXMAAAsSAAALEgHS3X78AAAB/klEQVQ4y41Ty27TUBDNn6XiF9ixQJRtVcEfsCxf0A8oSGzZgXgsWFAnUpxIBLtqEmIaUojjt699r9/m2JNewqMJR4k1nuTMnHl1qqqKoogxhqfv+0EQeJ7HOa//wql+cXyuHH1URraD17KqOiDHLYQQ4CAE2XmeF0VRtSirsiyKwcp8t7zGx2xDV3XdKcsyaUEcGBQFHNi8BSImaVLDlaZ1lkktm8w85nmax5yTjeyaptm2LRLRMJNk+f1a03UuRMgYRG3IyBwG4dL5Ybjf4ih2HCdJ0zevXt/pHjw9ORFcoAXoxaOj4273QFEUUrchF2WRMP7WUHXbyETiem6RZGfvX959cO/Fs+dc8MAPLN+5/+Tx4eHDz5qGKlKIl2TOotHXyy/LK7/NEoVsdHWp6p/M1crzPRaGpm19uFBnsxkKwV+ym7Ib2ZiPaznWer22LBLp266NF9v2W7iu65iW1f76GxlfjKQZS1GUNyC78Utsmejxr8yLxWI8HsOFkDS2tIXs6m1oyPP5fDAYwEAzaMnCEBNh/0tWVZW2pZlzCxj7yShsMpn0ej1aqW2yHMkuMjIPh0OSLTUD4MO5R7ZhGCQb20PnRflhw7Mn83Q67ff7IEMnOHQYhN1l/9lt0iwvHM9s64z+LZtqRk4iQzaR4ZQrcWu3cS5SthS8g0b4CV7xNidhFVQqAAAAAElFTkSuQmCC&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Travis repositories list&quot; title=&quot;&quot; src=&quot;/static/travis_own_repo-97c6453dd080ba1a08c21ffe3df4836d-9b30c.png&quot; srcset=&quot;/static/travis_own_repo-97c6453dd080ba1a08c21ffe3df4836d-a70ee.png 240w,
+/static/travis_own_repo-97c6453dd080ba1a08c21ffe3df4836d-15bf1.png 480w,
+/static/travis_own_repo-97c6453dd080ba1a08c21ffe3df4836d-9b30c.png 789w&quot; sizes=&quot;(max-width: 789px) 100vw, 789px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
 &lt;/p&gt;
 &lt;p&gt;If you don’t find your project in the list, you can use the &lt;strong&gt;Sync account&lt;/strong&gt; that you can see on the above picture. It will update your Github information.&lt;/p&gt;
 &lt;p&gt;If the repository you are working on is part of an &lt;a href=&quot;https://help.github.com/articles/collaborating-with-groups-in-organizations/&quot;&gt;Organization Github account&lt;/a&gt; you can find the list of your organizations on the left of your repositories list:&lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;images/PUBLIC_PACKAGE/travis_org_list.png&quot; alt=&quot;Travis org list&quot;&gt;
+  
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/travis_org_list-13766a2aee6c5c151429bb89303fe614-45f08.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 378px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 75.3968253968254%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsSAAALEgHS3X78AAABS0lEQVQoz5WTPUvDQBjH+630OwgiiPgV9BMIIlJHx2zuAfeqg0RbMlgHbazRQZcU7BACSfOeu0vukvj00pBCTGJ/PBw33P95v15ekqZpkiTFBWCcLMvyZnrFazhFURQEwbIsXdcNw5hz4jjuEBfuVVWVZdnzPNd1wYVpmnAWftvE62CMHccJw5BSmndRiTMOaKIogmzbY/4deSMqse/7tm1DwZA2JL9Kp7QOMSWEIkQxRlBwrclZjZWY8dvlx+f27d2uNDwcyQfD0Z70uP8w3LmXtgY3V1/fy4nWZl6JrzXtePx8OlEupu99ZXo2Uc6Vt5OX16On8eBn3iguYIQwhBJodRimfNU2aFgYRdZi4fk+GMKYMgbGYE/5tjbWvA5MGDaEEPL/yEs3KQoy13RcbzbTYL1hVcBL98covxXLEwKJQtggCGDgMPl28S92LmBNys0TnAAAAABJRU5ErkJggg==&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Travis org list&quot; title=&quot;&quot; src=&quot;/static/travis_org_list-13766a2aee6c5c151429bb89303fe614-45f08.png&quot; srcset=&quot;/static/travis_org_list-13766a2aee6c5c151429bb89303fe614-4be61.png 240w,
+/static/travis_org_list-13766a2aee6c5c151429bb89303fe614-45f08.png 378w&quot; sizes=&quot;(max-width: 378px) 100vw, 378px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
 &lt;/p&gt;
 &lt;p&gt;Once you have found the repository you are working on, you just need to activate it using the switch on the left of its name:&lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;images/PUBLIC_PACKAGE/travis_active_repo.png&quot; alt=&quot;Travis active repo&quot;&gt;
+  
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/travis_active_repo-32fe1952ac893bbeeee5252fda30c798-92e8d.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 407px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 23.34152334152334%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAACXBIWXMAAAsSAAALEgHS3X78AAAAvElEQVQY041OOwrCQBTcQ3kbz+QFYuMNRLCIhWgZK8UiZist1uw3u5AfhLBZx4gQrJziMe8zM49oY7iUlFLGWAhhGOG9n9YP+ZngmGRpekqSZRTt4hh9Xdd93yulhBBSSs55nufGGHBrrdYaBFsQuBDhnLCWCaGtDX/Af/FOnq038/1hm9Hj/TGE0LYtkhFSFIUdgVjnXFmWSMN2akQWl+sqzc7seZMKPZRwbZoG/6NCU1UVCGSYdF03Fb8ASLUZNvY5f78AAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Travis active repo&quot; title=&quot;&quot; src=&quot;/static/travis_active_repo-32fe1952ac893bbeeee5252fda30c798-92e8d.png&quot; srcset=&quot;/static/travis_active_repo-32fe1952ac893bbeeee5252fda30c798-eedd2.png 240w,
+/static/travis_active_repo-32fe1952ac893bbeeee5252fda30c798-92e8d.png 407w&quot; sizes=&quot;(max-width: 407px) 100vw, 407px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
 &lt;/p&gt;
 &lt;p&gt;That’s it! Travis is enabled for your project. It does not work as is but we’ll get it working in the next section.&lt;/p&gt;
 &lt;h3&gt;Step 3: Setup NPM&lt;/h3&gt;
@@ -519,11 +563,11 @@ handler&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span c
 &lt;p&gt;We configured Prettier to run against our &lt;em&gt;bin&lt;/em&gt;, &lt;em&gt;config&lt;/em&gt;, &lt;em&gt;scripts&lt;/em&gt; and &lt;em&gt;test&lt;/em&gt; folders. It will formats all js, css and json files in it. You can change the paths to better suit your project structure. The path follows &lt;a href=&quot;https://github.com/isaacs/node-glob&quot;&gt;glob pattern&lt;/a&gt; syntax. Thanks to lint-staged and husky Prettier will be run on our staged files before committing to make sure all committed code is formatted the same way in the whole project.&lt;/p&gt;
 &lt;p&gt;You need to add &lt;code class=&quot;language-text&quot;&gt;commitlint.config.js&lt;/code&gt; at your project root as well. It should contain:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&apos;use strict&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&apos;use strict&apos;&lt;/span&gt;
 
 module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;@commitlint/config-angular&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;@commitlint/config-angular&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;h4&gt;Finish Travis configuration&lt;/h4&gt;
@@ -531,8 +575,8 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token property&quot;&gt;&quot;repository&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;token property&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;git&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;token property&quot;&gt;&quot;url&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://github.com/dixeed/angularjs-scripts.git&quot;&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;git&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;url&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://github.com/dixeed/angularjs-scripts.git&quot;&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -550,7 +594,8 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;
       &lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token property&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;0.0.0-development&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
   &lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token property&quot;&gt;&quot;semantic-release&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;semantic-release pre &amp;amp;&amp;amp; npm publish &amp;amp;&amp;amp; semantic-release post&quot;&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;semantic-release&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token string&quot;&gt;&quot;semantic-release pre &amp;amp;&amp;amp; npm publish &amp;amp;&amp;amp; semantic-release post&quot;&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -580,13 +625,13 @@ branches:
 &lt;ul&gt;
 &lt;li&gt;Make sure to always have a &lt;strong&gt;Node v8+&lt;/strong&gt; build in your configuration. Semantic-release does not work in an environment &amp;#x3C; Node v8.0.0. In Travis the run with the highest Node version is the build leader so it will be responsible of running the &lt;code class=&quot;language-text&quot;&gt;npm run semantic-release&lt;/code&gt; command.&lt;/li&gt;
 &lt;li&gt;Your package will be runned against every node version specified in the &lt;code class=&quot;language-text&quot;&gt;node_js&lt;/code&gt; property. They all need to pass for your build to succeed.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If you are using the latest version of NPM, make sure to update it before Travis installs your project dependencies by adding:&lt;/p&gt;
+&lt;li&gt;If you are using the latest version of NPM, make sure to update it before Travis installs your project dependencies by adding:&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;before_install:
-- npm install -g npm@latest&lt;/code&gt;&lt;/pre&gt;
+  - npm install -g npm@latest&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;/li&gt;
+&lt;ul&gt;
 &lt;li&gt;The part with &lt;code class=&quot;language-text&quot;&gt;npm prune&lt;/code&gt; might not be useful so you can delete it. It can even be a problem and remove semantic-release hence preventing you from publishing. (That’s the conclusion I came to but if I’m wrong feel free to make a PR and correct that :+1: ).&lt;/li&gt;
 &lt;li&gt;Travis runs by default your &lt;code class=&quot;language-text&quot;&gt;npm/yarn test&lt;/code&gt; script defined in your &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
